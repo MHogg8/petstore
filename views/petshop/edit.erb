@@ -1,0 +1,16 @@
+<h1>Edit Petshop</h1>
+
+  <form action="/petshop/<%= @store.id %>" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" value="<%= @store.name %>"><br>
+    
+    <label for="stock">Stock:</label>
+    <input type="text" name="stock" id="stock" value="<%= @store.stock %>"><br>
+
+    <label for="address">Address:</label>
+    <input type="text" name="address" id="address" value="<%= @store.address %>"><br>
+
+    <input type='submit' value="Update Petshop">
+  </form>
+
+</div>

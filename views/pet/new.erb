@@ -1,0 +1,16 @@
+<h2>Create Pet</h2>
+
+<form action="/pets" method="post">
+  <input type="hidden" name="store_id" value="<%= @store.id %>">
+
+  <label for="name">Name:</label>
+  <input type="text" name="name"><br>
+
+  <label for="species">Species:</label>
+  <input type="text" name="species"><br>
+
+  <label for="image">Image:</label>
+  <input type="text" name="image"><br>
+
+  <input type='submit' value="Create Player">
+</form>

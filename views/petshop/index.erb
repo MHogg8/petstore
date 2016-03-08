@@ -1,0 +1,6 @@
+<h1>Pet Shops</h1>
+<ul>
+  <% @stores.each do |store| %>
+    <li><a href="/petshop/<%= store.id %>"><%= store.name %></a> pet type  <%= store.stock %></li>
+  <% end %>
+</ul>
